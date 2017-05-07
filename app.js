@@ -3,7 +3,7 @@
 var app =angular.module('store',[]);
 
 app.controller('StoreController',function(){
-	this.product = gem;
+	this.products = gem;
 });
 
 var gem = [
@@ -19,7 +19,7 @@ var gem = [
 	name:'Deodorant',
 	price:5.5,
 	description:'Get rid of those bad smells by using this refreshing product',
-	canPurchase:false,
+	canPurchase:true,
 
 },
 
